@@ -1,0 +1,18 @@
+.app-container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+  }
+  

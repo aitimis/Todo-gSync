@@ -1,0 +1,9 @@
+<app-todo-input (addTask)="addTask($event)"></app-todo-input>
+<div class="task-grid">
+  <app-todo-item
+    *ngFor="let task of tasks"
+    [task]="task"
+    (removeTask)="removeTask($event)"
+    (toggleComplete)="toggleComplete($event)"
+  ></app-todo-item>
+</div>

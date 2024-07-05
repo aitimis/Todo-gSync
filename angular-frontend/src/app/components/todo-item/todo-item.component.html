@@ -1,0 +1,10 @@
+<div class="task-card" [class.completed]="task.completed" (click)="onToggleComplete()">
+    <button class="remove-btn" (click)="onRemoveTask($event)">X</button>
+    <div class="task-status">
+      <span [ngClass]="{ 'done-status': task.completed, 'pending-status': !task.completed }">
+        {{ task.completed ? '✔ DONE' : 'PENDING' }}
+      </span>
+    </div>
+    <div class="task-title">{{ task.title }}</div>
+  </div>
+  
