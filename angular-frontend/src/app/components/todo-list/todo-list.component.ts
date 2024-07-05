@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class TodoListComponent {
   tasks = [
-    { id: '1', title: 'Sample Task 1', completed: false },
-    { id: '2', title: 'Sample Task 2', completed: true }
+    { id: '1', title: 'Example Task 1', completed: false },
+    { id: '2', title: 'Example Task 2', completed: true }
   ];
 
   addTask(taskTitle: string) {
