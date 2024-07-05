@@ -1,4 +1,4 @@
-# AngularFrontend
+# To Do G Sync App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
